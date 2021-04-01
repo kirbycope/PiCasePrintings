@@ -10,4 +10,4 @@ Code for the Raspberry Pi Add-on System
 1. Scroll down to the end and paste in `sudo python /home/pi/oled.py &` above "exit 0"
 1. Press [Ctrl]+[O] and the press [Enter] to Save
 1. Press [Ctrl]+[X] to Exit
-1. Type in sudo reboot and then press [Enter]
+1. Type in `sudo reboot` and then press [Enter]
