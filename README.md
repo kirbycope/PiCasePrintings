@@ -2,7 +2,7 @@
 Code for the Raspberry Pi Ice Tower Case Bases sold by [PiCasePrintings](https://www.etsy.com/shop/PiCasePrintings)
 
 ## Install Script
-1. Open terminal and paste in the following, `wget -qO- https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/install | bash`
+1. Open terminal and paste in the following, `wget -qO- https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/install | bash` and then press [Enter]
 
 ## Set OLED Script to Run at Start-Up
 1. Open terminal
