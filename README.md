@@ -1,10 +1,10 @@
 # PiCasePrintings
 Code for the Raspberry Pi Add-on System
 
-## Automatic Install
-1. Open terminal and paste in teh following, `wget -qO- https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/install | bash`
+## Install Script
+1. Open terminal and paste in the following, `wget -qO- https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/install | bash`
 
-## Manual Install - Set OLED Script to Run at Start-Up
+## Set OLED Script to Run at Start-Up
 1. Open terminal
 1. Paste in the following, `sudo nano /etc/rc.local` and then press [Enter]
 1. Scroll down to the end and paste in `sudo python /home/pi/oled.py &` above "exit 0"
