@@ -2,8 +2,8 @@
 
 cd $HOME
 
-wget -qO-https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/oled.py
-wget -qO-https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/type_writer.ttf
+wget -qO- https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/oled.py
+wget -qO- https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/type_writer.ttf
 
 sudo apt-get install python-smbus python3-smbus python-dev python3-dev i2c-tools
 sudo pip3 install Adafruit_BBIO
