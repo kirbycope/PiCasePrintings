@@ -1,6 +1,9 @@
 # PiCasePrintings
 Code for the Raspberry Pi Add-on System
 
+## Automatic Install
+1. Open termineal and paste in teh following, `wget -qO- https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/install | bash`
+
 ## Manual Install - OLED
 1. Open terminal
 1. Paste in the following, `wget https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/install.sh | chmod +x install.sh | ./install.sh` and then press [Enter]
