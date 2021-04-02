@@ -6,6 +6,8 @@ from PIL import ImageDraw
 from PIL import ImageFont
 import subprocess
 
+time.sleep(30)
+
 # Raspberry Pi pin configuration:
 RST = None     # on the PiOLED this pin isnt used
 # Note the following are only used with SPI:
