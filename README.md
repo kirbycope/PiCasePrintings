@@ -4,6 +4,10 @@ Code for the Raspberry Pi Ice Tower Case Bases sold by [PiCasePrintings](https:/
 ## Install Script
 1. Open terminal and paste in the following, `wget -qO- https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/install | bash` and then press [Enter]
 
+## Enable I2C (Required for OLED)
+1. Select (Raspberry Icon) > Preferences > Raspberry Pi Configuration > Interfaces
+1. Select (Enable) and then "OK"
+
 ## Set OLED Script to Run at Start-Up
 1. Open terminal
 1. Paste in the following, `sudo nano /etc/rc.local` and then press [Enter]
