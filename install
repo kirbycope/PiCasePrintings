@@ -1,10 +1,10 @@
 #!/bin/bash
 cd $HOME
-wget -O https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/oled.service
+wget -c https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/oled.service
 sudo cp oled.service /etc/systemd/system/oled.service
 sudo systemctl enable oled.service
-wget -O https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/oled.py
-wget -O https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/type_writer.ttf
+wget -c https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/oled.py
+wget -c https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/type_writer.ttf
 sudo apt-get install python-smbus python3-smbus python-dev python3-dev i2c-tools
 sudo pip3 install Adafruit-PureIO
 sudo pip3 install Adafruit_BBIO
