@@ -3,6 +3,7 @@ Code for the Raspberry Pi Ice Tower Case Bases sold by [PiCasePrintings](https:/
 
 ## Wiring the Raspberry PI
 ![Screenshot](/GPIO-Pinout-Diagram-2.png)
+</br>*Image Copyright RAPSBERRY PI FOUNDATION*
 
 ### Power Button
 1. Plug the color wire into GPIO 26 (Pin 37)
