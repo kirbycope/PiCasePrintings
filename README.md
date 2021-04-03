@@ -15,11 +15,10 @@ This guide assumes you have the [GeeekPi Quiet Fan](https://smile.amazon.com/Gee
 1. Plug the black wire into Ground (Pin 25)
 
 ### OLED Display
-This guide will start from the back of the oled and from the top
 1. Plug the black(?) wire into GPIO 2 (SDA)(Pin 3)
 1. Plug the white(?) wire into GPIO 3 (SCL)(Pin 5)
 1. Plug the grey(?) wire into 3V Power (Pin 1)
-1. Plug the black(?) wire into Ground (Pin9)
+1. Plug the purple(?) wire into Ground (Pin9)
 
 ## LED Base
 1. Plug the red wire into 5V Power (Pin 2)
