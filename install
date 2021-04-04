@@ -14,6 +14,10 @@ git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
 cd Adafruit_Python_GPIO
 sudo python3 setup.py install
 cd $HOME
+wget https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/led.py
+wget https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/led.service
+sudo cp led.service /etc/systemd/system/led.service
+sudo systemctl enable led.service
 sudo apt-get install gcc make build-essential python-dev git
 git clone https://github.com/jgarff/rpi_ws281x
 cd rpi_ws281x/python
