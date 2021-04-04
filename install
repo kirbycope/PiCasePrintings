@@ -27,5 +27,5 @@ sudo pip3 install adafruit-circuitpython-neopixel
 cd $HOME
 wget https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/pwr.py
 wget https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/pwr.service
-sudo cp led.service /etc/systemd/system/pwr.service
+sudo cp pwr.service /etc/systemd/system/pwr.service
 sudo systemctl enable pwr.service
