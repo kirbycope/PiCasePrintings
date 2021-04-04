@@ -6,6 +6,7 @@ Code for the Raspberry Pi Ice Tower Case Bases sold by [PiCasePrintings](https:/
 </br>*Image Copyright RAPSBERRY PI FOUNDATION*
 
 ### Power Button
+This guide assumes you have a 2-pin momentary switch, like [this one](https://smile.amazon.com/skineat-3-Pack-Desktop-Button-Computer/dp/B089RGH3TX/)
 1. Plug the color wire into GPIO 26 (Pin 37)
 1. Plug the black wire into Ground (Pin 39)
 1. The shut-down script is hosted in [another repo](https://github.com/kirbycope/soft-shutdown-script)
@@ -16,6 +17,7 @@ This guide assumes you have the [GeeekPi Quiet Fan](https://smile.amazon.com/Gee
 1. Plug the black wire into Ground (Pin 25)
 
 ### OLED Display
+This guide assumes you have a SSD1306 display, like [this one](https://smile.amazon.com/Treedix-Display-Interface-Compatible-Raspberry/dp/B08D9FPLYH)
 1. Plug the black(?) wire into GPIO 2 (SDA)(Pin 3)
 1. Plug the white(?) wire into GPIO 3 (SCL)(Pin 5)
 1. Plug the grey(?) wire into 3V Power (Pin 1)
