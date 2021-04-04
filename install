@@ -13,3 +13,10 @@ sudo apt-get install build-essential python-pip python-dev python-smbus git
 git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
 cd Adafruit_Python_GPIO
 sudo python3 setup.py install
+cd $HOME
+sudo apt-get install gcc make build-essential python-dev git
+git clone https://github.com/jgarff/rpi_ws281x
+cd rpi_ws281x/python
+sudo python3 setup.py build
+sudo python3 setup.py install
+sudo pip3 install adafruit-circuitpython-neopixel
