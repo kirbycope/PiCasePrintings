@@ -42,6 +42,5 @@ if __name__ == '__main__':
     # Intialize the library (must be called once before other functions).
     strip.begin()
 
-    try:
-        while True:
-            theaterChaseRainbow(strip)
+    while True:
+        theaterChaseRainbow(strip)
