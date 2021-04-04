@@ -9,7 +9,6 @@ Code for the Raspberry Pi Ice Tower Case Bases sold by [PiCasePrintings](https:/
 This guide assumes you have a 2-pin momentary switch, like [this one](https://smile.amazon.com/skineat-3-Pack-Desktop-Button-Computer/dp/B089RGH3TX/)
 1. Plug the color wire into GPIO 26 (Pin 37)
 1. Plug the black wire into Ground (Pin 39)
-1. The shut-down script is hosted in [another repo](https://github.com/kirbycope/soft-shutdown-script)
 
 ### Case Fan
 This guide assumes you have the [GeeekPi Quiet Fan](https://smile.amazon.com/GeeekPi-Raspberry-40x40x10mm-Brushless-Multicolour/dp/B082X1W7M5)
@@ -37,5 +36,6 @@ This guide assumes you have the [GeeekPi ICE Tower Cooler](https://smile.amazon.
 1. Select (Raspberry Icon) > Preferences > Raspberry Pi Configuration > Interfaces
 1. Select (Enable) and then "OK"
 
-## Install Script for OLED
+## Install Script for OLED, LED, and PWR
 1. Open terminal and paste in the following, `wget -qO- https://raw.githubusercontent.com/kirbycope/PiCasePrintings/main/install | bash` and then press [Enter]
+1. The OLED, LED, and PWR scripts will start in the background after you reboot
