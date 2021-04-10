@@ -6,7 +6,7 @@ Code for the Raspberry Pi Ice Tower Case Bases sold by [PiCasePrintings](https:/
 </br>*Image Copyright RAPSBERRY PI FOUNDATION*
 
 ### Power Button
-This guide assumes you have a 2-pin momentary switch, like [this one](https://smile.amazon.com/skineat-3-Pack-Desktop-Button-Computer/dp/B089RGH3TX/)
+This guide assumes you have a 2-pin momentary switch, like [this one](https://smile.amazon.com/skineat-3-Pack-Desktop-Button-Computer/dp/B089RGH3TX/). Press for less than 2 seconds to reboot. Hold for 3+ seconds (then release) to shutdown.
 1. Plug the color wire into GPIO 26 (Pin 37)
 1. Plug the black wire into Ground (Pin 39)
 
